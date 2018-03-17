@@ -1,0 +1,38 @@
+<div class="">
+  <div *ngFor="let computer of computers" class="group">
+    <h2>{{computer.name}}</h2>
+    <div *ngIf="computer.cpu" class="subsection">
+      <h4>CPU</h4>
+      {{computer.cpu}}
+    </div>
+    <div *ngIf="computer.gpu" class="subsection">
+      <h4>GPU</h4>
+      {{computer.gpu}}
+    </div>
+    <div *ngIf="computer.ram" class="subsection">
+      <h4>RAM</h4>
+      {{computer.ram}}
+    </div>
+    <div *ngIf="computer.storage" class="subsection">
+      <h4>Storage Drives</h4>
+      <div *ngFor="let storage of computer.storage">
+        {{storage}}
+      </div>
+    </div>
+    <div *ngIf="computer.compcase" class="subsection">
+      <h4>Computer Case</h4>
+      {{computer.ram}}
+    </div>
+    <div *ngIf="computer.cpucooler" class="subsection">
+      <h4>CPU Cooler</h4>
+      {{computer.cpucooler}}
+    </div>
+    <div *ngIf="computer.purpose" class="group">
+      <h2>Purpose</h2>
+      <div *ngFor="let purpose of computer.purpose" class="subsection">
+        <h4>{{purpose.name}}</h4>
+        {{purpose.content}}
+      </div>
+    </div>    
+  </div>
+</div>

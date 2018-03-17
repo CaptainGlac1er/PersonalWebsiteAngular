@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+html{
+    margin: 0;
+    height: 100%;
+    font-family: Arial Black, Impact;
+}
+body{
+    background-image: linear-gradient(to right bottom, rgb(16, 0, 0) 0%, rgb(48, 0, 0) 10%, rgb(16, 0, 0) 25%, rgb(48, 0, 0) 40%, rgb(16, 0, 0) 60%, rgb(48, 0, 0) 85%, rgb(16, 0, 0) 100%);
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+}
+#content{
+    margin: 0 auto;
+    height: 100%;
+    max-width: 700px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+#top{
+    min-height: calc(100% - 80px);
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.contentstage{
+    background-color: lightgray;
+    padding: 20px;
+}
+.group{
+    box-sizing: border-box;
+    background-color: darkgray;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+.group > h2{
+    margin: 0;
+    padding: 10px;
+    border-left: 5px solid rgb(200,25,28);;
+}
+.group > .subsection{
+    overflow: auto;
+    box-sizing: border-box;
+    background-color: lightgray;
+    padding: 10px;
+}

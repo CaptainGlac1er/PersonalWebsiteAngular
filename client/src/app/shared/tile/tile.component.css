@@ -1,0 +1,21 @@
+.tile{
+    background-size: cover;
+    background-position: left top;
+    margin-bottom: 5px;
+    background-color: white;
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.tile span{
+    font-family: Arial Black, Impact;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: right;
+    color: black;
+    background-color: darkgray;
+}

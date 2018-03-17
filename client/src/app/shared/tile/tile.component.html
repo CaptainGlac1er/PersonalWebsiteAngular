@@ -1,0 +1,15 @@
+<div *ngIf="link; then linkfound; else rellinkfound"></div>
+<ng-template #linkfound>
+<a href="{{tileinfo.link}}">
+  <div class="tile" [ngStyle]="{'background-image': image}">
+    <span>{{tileinfo.name}}</span>
+  </div>
+</a>
+</ng-template>
+<ng-template #rellinkfound>
+<a [routerLink]=[tileinfo.rellink]>
+  <div class="tile" [ngStyle]="{'background-image': image}">
+    <span>{{tileinfo.name}}</span>
+  </div>
+</a>
+</ng-template>
