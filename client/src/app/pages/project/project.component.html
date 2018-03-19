@@ -1,3 +1,12 @@
-<p>
-  project works!
-</p>
+<div *ngFor="let project of projects" class="proj">
+    <div class="title">
+      {{project.title}}
+    </div>
+    <div class="content">
+      {{project.content}}
+    </div>
+    <div class="links">
+      <a *ngFor="let link of project.links" href="{{link.link}}">{{link.name}}</a>
+    </div>
+  </div>
+  

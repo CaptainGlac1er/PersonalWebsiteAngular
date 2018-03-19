@@ -21,7 +21,7 @@ body{
 
 }
 #top{
-    min-height: calc(100% - 80px);
+    min-height: calc(100% - 50px);
     overflow: hidden;
 }
 a{

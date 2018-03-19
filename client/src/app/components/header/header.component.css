@@ -3,6 +3,7 @@
     border-top: 5px solid rgb(200,25,28);
     background-color: #eeeeee;
     font-size: 30px;
+    padding: 10px;
 }
 .header a{
     text-decoration: none;

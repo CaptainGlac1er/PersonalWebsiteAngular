@@ -16,6 +16,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { TileComponent } from './shared/tile/tile.component';
 import { ComputersComponent } from './pages/hobbies/computers/computers.component';
 import { Error404Component } from './shared/error404/error404.component';
+import { PhotographyComponent } from './pages/hobbies/photography/photography.component';
+import { GamingComponent } from './pages/hobbies/gaming/gaming.component';
 
 
 
@@ -32,7 +34,9 @@ import { Error404Component } from './shared/error404/error404.component';
     FooterComponent,
     TileComponent,
     ComputersComponent,
-    Error404Component
+    Error404Component,
+    PhotographyComponent,
+    GamingComponent
   ],
   imports: [
     BrowserModule,
