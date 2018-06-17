@@ -1,4 +1,4 @@
-<div *ngIf="link; then linkfound; else rellinkfound"></div>
+<div *ngIf="tileinfo.link; then linkfound; else rellinkfound"></div>
 <ng-template #linkfound>
 <a href="{{tileinfo.link}}">
   <div class="tile" [ngStyle]="{'background-image': image}">
